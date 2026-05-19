@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+
+# Rust
+target/
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# SQLite (user data, should never be committed)
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Tauri generated
+src-tauri/gen/schemas/
+
+# Environment files
+.env
+.env.local
